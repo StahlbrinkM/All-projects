@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: black;
+  width: 550px;
+  height: 550px;
+  font-family: 'Inter', sans-serif;
+  border-radius: 40px;
+}
+
+input {
+  background: #ffffff;
+  border: none;
+  border-radius: 50px;
+  text-align: center;
+}
+
+button {
+  background: #ffffff;
+  border: none;
+  border-radius: 50px;
+
+}
+p {
+  color: #D2D2D2;
+
+}
+
+.hero {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 550px;
+  height: 260px;
+  background: linear-gradient(#585dfe 0%, #f83796 100%);
+  border-radius: 40px 40px 0 0;
+}
+
+#header {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 22px;
+  font-style: normal;
+  margin-bottom: 30px;
+  text-shadow: 0px 0px 1px black;
+}
+
+#header-number {
+  font-size: 25px;
+  margin-top: 0px;
+  color: black;
+  font-weight: 800;
+  width: 100px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+#convert-button {
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+
+#converter {
+  height: 290px;
+  max-width: 550px;
+  text-align: center;
+  background: #1F2937;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  border-radius: 0 0 40px 40px;
+}
+
+#converter-meter {
+  margin-top: 37px;
+  margin-bottom: 27px;
+}
+
+converter-volume {
+  margin-top: 37px;
+  margin-bottom: 27px; 
+}
+
+
+#converter-mass {
+  margin-top: 37px;
+  margin-bottom: 27px;
+}
+
+
+.name-of-converter {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+}
+

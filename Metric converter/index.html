@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="hero">
+            <h1 id="header">Metric/Imperial unit conversion</h1>
+            <input type="number" id="header-number" name="number-input">
+            <button id="convert-button" onclick="meterConversion()"> Convert </button>
+        </div>
+        
+        <div id="converter">
+            <div id="converter-meter">
+                <h3 class="name-of-converter"> Length (Meter/Feet) </h3>
+                  <p id="meter-number"> 
+                    <span id="m-number"></span> M = <span id="meters-to-feet" max-length="3"></span> Ft | 
+                    <span id="ft-number"></span> Ft = <span id="feet-to-meter"></span> M 
+                  </p>
+            </div>
+            
+            <div id="converter-volume">
+                <h3 class="name-of-converter"> Volume (Liters/Gallons) </h3>
+                  <p id="volume-number"> 
+                    <span id="liter-number"></span> L = <span id="liter-to-gallon"></span> Gal | 
+                    <span id="gallon-number"></span> Gal = <span id="gallon-to-liter"></span> L 
+                  </p>
+            </div>
+            
+            <div id="converter-mass">
+                <h3 class="name-of-converter"> Mass (Kilograms/Pounds) </h3>
+                  <p id="mass-number"> 
+                    <span id="kilo-number"></span> Kg = <span id="kilos-to-pounds"></span> Pounds | 
+                    <span id="pound-number"></span> Pounds = <span id="pounds-to-kilos"></span> Kg 
+                  </p>
+            </div>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
