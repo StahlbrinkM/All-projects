@@ -1,107 +1,161 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1C1C1C;
-  margin-top: 50px;
-}
-
-#container {
-  text-align: center;
-  background: #1F2937;
-  height: 550px;
-  max-width: 550px;
-  border-radius: 10px;
-}
-
-#password-text {
-  position: absolute;
-  margin-top: 118px;
-  margin-left: 52px;
+  font-family: "Inter";
+  font-style: normal;
   color: white;
-  width: 354px;
-  height: 80px;
+  margin: 0;
+  padding: 0;
+  background: #1c1c1c;
+}
+
+
+/* ----Entire block---- */
+.container {
+  background: #1f2937;
+  padding: 4.6rem 5.1rem;
+  border-radius: 1.6rem;
+  width: 45rem;
+  margin: 50px auto;
+}
+
+
+
+
+
+/* ----Header text/section---- */
+h1 {
+  font-family: "karla";
   font-style: normal;
   font-weight: 800;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 3.9rem;
   letter-spacing: -0.025em;
-  font-family: 'Karla', sans-serif;
+  margin: 2em 0 1rem;
+  padding: 0;
+  max-width: 35rem;
+  line-height: 4rem;
+}
+
+h1 > span {
+  color: #db8017;
+}
+
+.hero > p {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #d5d4d8;
+  margin: 1rem 0;
+  padding: 0;
+}
+/* ----Entire button section---- */
+.btn {
   display: flex;
-  justify-content: start;
-  align-items: start;
-  flex-direction: column;
+  justify-content: space-between;
+  margin: 1.5rem 0 3rem;
+  padding: 3.5rem 0;
+  border-bottom: 1px #2f3e53 solid;
 }
 
-#password-text span {
-  color: #34D399;
-}
-
-#insecure-password {
-  position: absolute;
-  width: 372px;
-  height: 28px;
-  margin-left: 52px;
-  margin-top: 208px;
-  font-family: 'Inter', sans-serif;
+/* ----Button styling---- */
+button {
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 400px;
-  font-size: 20px;
-  line-height: 28px;
-  color: #D5D4D8;
+  font-size: 1.6rem;
+  color: white;
+  background: #db8017;
+  border-radius: 6px;
+  border: none;
+  padding: 0.75em 1.2em;
+  transition-duration: 0.2s;
 }
 
-#lightning {
-  margin-left: 10px;
-  margin-top: 3px;
+button:hover {
+  background: #db8017;
+  cursor: pointer;
+}
+
+
+
+
+/* ----Copy paragraph---- */
+.copy-text {
+  font-size: 1.6rem;
+  margin: 0 0 30px 0;
+  color: #d5d4d8;
+}
+
+
+
+
+/* ----Entire password section---- */
+.passwords {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 2.7rem;
+  column-gap: 0;
+}
+
+/* ----Generated password styling---- */
+input {
+  border-radius: 6px;
+  outline-style: none;
+  border-style: none;
+  color: #db8017;
+  padding: 1rem 0;
+  width: 45%;
+  cursor: pointer;
+}
+
+input:active {
+  border-radius: 6px;
+  outline-style: none;
+  border-style: none;
+  color: #ffffff;
+  padding: 1rem 0;
+  width: 45%;
+  cursor: pointer;
+}
+
+
+
+/* ----Slider styling---- */
+#slider {
+  margin: 0 5px;
+  width: 18rem;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  cursor: pointer;
+  background: #273549;
+  border-radius: 20px;
+}
+
+output {
+  font-size: 1.6rem;
+  align-self: center;
+  margin: 0;
+  min-width: 18px;
+  text-align: right;
+}
+
+
+
+
+/* ----The 3 dots over the inputs---- */
+.icon {
+  background-image: url("images/dot-icon.png");
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #273549;
   text-align: center;
 }
 
-#password-btn {
-  width: 223px;
-  height: 42px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  margin-top: 296px;
-  margin-right: 275px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  color: #ffffff;
-  background: #10B981;
-  border: none;
-  border-radius: 4px;
-  margin-bottom: 70px;
+/* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
 }
-
-#btn {
-  max-width: 446px;
-  height: 364px;
-  border-bottom: 1px #2f3e53 solid;
-  margin-left: 52px;
-}
-
-.passwords {
-  margin-top: 35px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  row-gap: 27px;
-  column-gap: 0.6rem;
-}
-
-.btn-looks {
-  width: 211px;
-  height: 39px;
-  background: #273549;
-  border-radius: 6px;
-  border: none;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-
