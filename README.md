@@ -5,4 +5,4 @@ All my serious projects that I'm currently working on.
 
 [Blackjack](https://stahlbrinkm.github.io/All-projects/Blackjack/)
 
-[Password-generator](https://stahlbrinkm.github.io/All-projects/Password%20generator/)
+[Password-generator]
