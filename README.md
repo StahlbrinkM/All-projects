@@ -9,4 +9,4 @@ All my serious projects that I'm currently working on.
 
 [Countdown timer](https://stahlbrinkm.github.io/All-projects/Countdown%20timer/)
 
-[Todo list](https://stahlbrinkm.github.io/All-projects/todo%20list/)
+[Todo list](https://stahlbrinkm.github.io/All-projects/Todo%20list/)
