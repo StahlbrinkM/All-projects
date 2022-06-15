@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin: 0;
+    margin-top: 50px;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #adadad;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    margin-top: 15px;
+    text-align: center;
+}
+
+h5 {
+    color: #adadad;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-style: italic;
+}
+form {
+    width: 340px;
+    max-width: 100%;
+}
+
+.input {
+    border: none;
+    color: #444;
+    font-size: 1.4rem;
+    width: 100%;
+    display: block;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+}
+
+.input::placeholder {
+    color: #d5d5d5;
+    max-width: 100%;
+    font-size: 1.4rem;
+}
+
+.todos {
+    background-color: #ffffff;
+    padding: 0;
+    margin-top: 10px;
+    list-style-type: none;
+    border-radius: 20px;
+}
+
+.todos li {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.todos li.completed {
+    text-decoration: line-through;
+    color: #b5b5b5;
+}
+
+small {
+    text-shadow: 0 0 1px black;
+    color: #adadad;
+    margin-top: 3rem;
+    text-align: center;
+}
