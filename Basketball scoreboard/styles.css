@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 50px 0 10px 0;
+}
+
+.container {
+    display: flex;
+    background: #000b46;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    width: 450px;
+}
+
+.score-container {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: black;
+    padding: 10px 40px;
+    border-radius: 5px;
+    width: 130px;
+}
+
+.score-container span {
+    font-size: 4rem;
+    color: rgb(255, 111, 111);
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 9px 7px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#new-game-container {
+    margin-top: 220px;
+}
+
+#new-game-btn {
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    width: 50px;
+    text-align: center;
+}
